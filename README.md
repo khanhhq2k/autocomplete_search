@@ -10,4 +10,4 @@ redis: https://www.digitalocean.com/community/tutorials/how-to-install-and-confi
 
 to add search middleware to queue:
 config/application.rb:
-config.middleware.insert_before 0, "SearchSuggestions"
+config.middleware.insert_before 0, SearchSuggestions
